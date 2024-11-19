@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100vw;
+    padding: 20px;
+}
+
+#current-image-container{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+img{
+    width: 100%;
+    max-height: 400px;
+}
+input{
+    width: 240px;
+    height: 40px;
+}
+button{
+    padding: 10px 30px;
+}
+
+ul{
+    margin: 10px 0px;
+}
+
+li{
+    list-style-type: none;
+    margin: 2px 0px;
+}
+
+#logError{
+    color: red;
+}
+
+#title{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
